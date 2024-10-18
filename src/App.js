@@ -9,8 +9,10 @@ import { AboutUs } from "./views/aboutUs";
 import { BeforeAfter } from "./views/beforeAfter";
 import { ContactPage } from "./views/contactPage";
 
+
 function App() {
   return (
+    <div className="overflow-hidden">
     <Router>
       <Routes>
         <Route path="/" element={<LandingPage />} />
@@ -23,6 +25,7 @@ function App() {
         <Route path="*" element={<NotFound />} />
       </Routes>
     </Router>
+    </div>
   );
 }
 

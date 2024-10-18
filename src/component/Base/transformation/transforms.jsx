@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { MdArrowRight } from "react-icons/md";
 
-export const Transformations = ({ title, data }) => {
+export const Transformations = ({ data }) => {
   const [currentStages, setCurrentStages] = useState({});
 
   useEffect(() => {
@@ -33,7 +33,9 @@ export const Transformations = ({ title, data }) => {
 
             return (
               <div key={stageIndex}>
-                <h2 className="text-[30px] mt-[30px]">{stage.title}</h2>
+                <h2 className="text-[30px] mt-[30px] p-[30px] font-medium">
+                  {stage.title}
+                </h2>
                 <div className="grid grid-cols-[2fr_0.1fr_0.1fr_1.5fr] mb-[30px]">
                   <div className="relative flex">
                     <img
@@ -148,7 +150,7 @@ export const Transformations = ({ title, data }) => {
                     <div className="h-full flex flex-col justify-between"></div>
                   </div>
 
-                  <div className="flex flex-col justify-center h-full gap-8">
+                  <div className="flex flex-col justify-between h-full gap-8">
                     {stage.badges.map((badge, index) => (
                       <button
                         key={index}

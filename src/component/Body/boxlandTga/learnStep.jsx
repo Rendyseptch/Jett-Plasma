@@ -24,12 +24,12 @@ export const LearnStep = () => {
 
 export const TitleHead = () => {
   return (
-    <div className=" lg:w-[1220px] lg:h-[282px] md:w-[1220px] md:h-[282px] lg:mb-[200px] md:mb-[200px] ">
+    <div className=" lg:w-[1220px] h-full md:w-[684px] md:h-[282px] lg:mb-[200px]  ">
       <h1 className="text-title lg:text-[80px] md:text-[30px] text-[30px] space-x-1 text-white ">
         Plasma Unveiled: Understanding the Science Behind Jett Plasma Pen
         Medical
       </h1>
-      <div className="lg:w-[710px] lg:h-[80px] text-white">
+      <div className="lg:w-[710px] lg:h-[80px] md:w-[684px] text-white">
         <h2 className="text-title lg:text-[30px] text-[24px] pt-[20px] ">
           Plasma is one of the four fundamental states of matter, the others
           being solid, liquid, and gas.

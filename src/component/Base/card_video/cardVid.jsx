@@ -38,7 +38,7 @@ export const CardVid = ({
         <div
           className={`absolute ${PositionClass} w-[50px] h-[50px] `}
         >
-          <div className="absolute bottom-8  right-2 w-[50px] h-[50px]">
+          <div className="absolute bottom-[75px]  left-[530px] w-[50px] h-[50px]">
             <a href={link} target="_blank" rel="noopener noreferrer">
               <img
                 className="w-[40px] h-[40px]  "

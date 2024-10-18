@@ -6,7 +6,7 @@ export const Dtavr = [
     badges: [
       {
         index: 1,
-        label: "before",
+        label: "Before",
         images: images.after,
       },
       {

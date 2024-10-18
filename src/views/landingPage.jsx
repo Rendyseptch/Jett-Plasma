@@ -13,6 +13,7 @@ import { ParentQnA } from "../component/Body/qAndAns/parentQnA.jsx";
 import { BoxContact } from "../component/Body/boxlast/contactUs.jsx";
 // import { Footer } from "../component/Body/footer/footer.jsx";
 import Layout from "../component/Base/layout/index.jsx";
+import { Boxlanduatitik } from "../component/Body/boxlanddua/boxlanddua.jsx";
 
 //  className="App overflow-x-hidden bg-gray-100 w-screen md:w-full  "
 export const LandingPage = () => {
